@@ -5,7 +5,7 @@
 Hello. My name is Jason Goldberger co-founder of DataMelon.io.  Welcome to the first episode of Phoenix from PHX. In these videos we're going to be covering
 paradigms, features, and tools for Elixir's Phoenix framework.
 
-Today we are going to create a simple crud (create, read, update, delete) app with data to persistence handled by Postgres.
+Today we are going to create a simple CRUD (__c__reate, __r__ead, __u__pdate, __d__elete) app with data to persistence handled by Postgres.
 
 
 # Explain Phoenix
