@@ -1,6 +1,6 @@
 # Introduction
 
->> Viewing DataMelon
+> Viewing DataMelon
 
 Hello. My name is Jason Goldberger co-founder of DataMelon.io.  Welcome to the first episode of Phoenix from PHX. In these videos we're going to be covering
 paradigms, features, and tools for Elixir's Phoenix framework.
@@ -10,7 +10,7 @@ Today we are going to create a simple crud (create, read, update, delete) app wi
 
 # Explain Phoenix
 
->> Viewing phoenixframework.org
+> Viewing phoenixframework.org
 
 This is the page for Phoenix. Phoenix is currently on version 0.13. For this video I'm assuming you already have Elixir (at least 1.0) and Erlang/OTP installed. If not go to elixir-lang.org and follow the instructions for installation.
 
@@ -19,7 +19,7 @@ Additionally, to take advantage of all of Phoenix's tool having NodeJS installed
 
 # Install @ phoenixframework.org
 
->> showing cleared console
+> showing cleared console
 
 + run `$ mix local.hex`
 + run `$ mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v0.13.1/phoenix_new-0.13.1.ez`
@@ -32,7 +32,7 @@ And finally, if you get stuck on anything while programming Elixir, feel free to
 
 # Welcome to Phoenix.
 
->> console
+> console
 
 + run `$ mix phoenix.new phx_blog`
 
@@ -49,7 +49,7 @@ If we run 'iex -S mix phoenix.server' and visit `localhost:4000` we'll get a Pho
 
 # Phoenix Generators
 
->> console
+> console
 
 Alright. Let's get down to business.
 
@@ -69,7 +69,7 @@ Unfortunately, the defaults for phoenix won't work out-of-the-box on my system. 
 
 # Change dev.exs
 
->> Showing file `dev.exs`
+> Showing file `dev.exs`
 
 + change dev.exs and test.exs config to match:
 
@@ -81,7 +81,7 @@ password: "password",
 ```
 # Set up Postgres
 
->> showing console
+> showing console
 
 + `$ sudo su postgres`
 + enter password
@@ -98,7 +98,7 @@ password: "password",
 
 # Look at generated ecto file
 
->> Show priv/repo/migrations/whatever file
+> Show priv/repo/migrations/whatever file
 
 
 
